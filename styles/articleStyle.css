@@ -1,0 +1,99 @@
+/*Código Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+    background-color: #1C1D1F;
+    padding-bottom: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+header img{
+    max-width: 65%;
+}
+
+header nav ul{
+    display: flex;
+    padding-top: 50px;
+    gap: 25px;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1C1D1F;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+footer p{
+    color: white;
+}
+
+.imagelogo{
+    justify-content: left;
+    margin-left: 25px;
+}
+
+.artimage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.artimage img{
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.conteudo h2{
+    margin-bottom: 15px;
+}
+
+.conteudo p{
+    margin-bottom: 50px;
+}
+
+.youvideo{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo iframe{
+    border-radius: 10px;
+    margin-top: 50px;
+    max-width: 95%;
+}
