@@ -94,10 +94,18 @@ footer p{
 }
 
 .container img{
-    width: 500px;
-    height: 350px;
+    max-width: 75%;
+    height: auto;
     border-radius: 10px;
     max-width: 100%;
+}
+
+.articlecount{
+    flex-direction: column;
+}
+
+.articlecount h4{
+    text-align: center;
 }
 
 .imagelogo{
